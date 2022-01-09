@@ -176,4 +176,10 @@ public class AccountController {
 		
 		return response;
 	}
+	
+	@GetMapping("/account/home")
+	public String welcome1() {
+		return "welcome to account app";
+	}
+
 }
